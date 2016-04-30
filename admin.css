@@ -1,0 +1,145 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:13px;
+	color:#999;
+}
+#admin_menu {
+	float:left;
+	width:130px;
+	padding:5px 0px 0px 0px;
+	text-align:left;
+}
+
+label {
+color: #FFF;
+display: block;
+width: 150px;
+float: left;
+}
+label:after { content: ": " }
+
+
+
+header{
+		background: url(images/admin_head.jpg) repeat-x right;
+		height:41px;
+}
+
+.myOtherTable { background-color:#E51937;border-collapse:collapse;color:#FFF;border-radius:2px; text-decoration:none;}
+.myOtherTable th { background-color:#BDB76B;color:white;width:50%;padding:5px;  }
+.myOtherTable td, .myOtherTable th { padding:5px;border:0; }
+.myOtherTable td { border-top:1px solid #FFF; }
+.myOtherTable td a {color:#FFF;}
+
+
+#admin_login{
+	padding: 70px 0px 5px 40px;
+	margin: 0 auto;
+	width:250px;
+	background: url(images/login_bg.fw.png) no-repeat;
+	color: #333 !important;
+	overflow: hidden;
+	text-align: right;
+	alignment-adjust:central;
+		}
+
+
+
+
+#menu {
+	float: left;
+	width:1024px;
+}
+
+
+#menu a {
+	line-height: 30px;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	text-align: left;
+	text-transform: uppercase;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color:#E51937;
+}
+#menu a:hover {
+	text-decoration: none;
+	color: #9BD252;
+}
+
+#wrapper {
+	background: #fff;
+	width: 100%;
+}
+.wrapper {
+margin: 0 auto;
+width: 1024px;
+text-align:centre;
+}
+
+#add_icon, #view_icon, #add_movie, #add_game {
+	float:left;
+	width:200px;
+	background-color:#E51937;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+.section {
+	width:1050px;
+	padding: 0px 0px 5px 10px;
+	left: 200px;
+	width:800px;
+	float:left;
+	clear:both;
+}
+
+	
+#content{ 
+position: relative; 
+height: auto; 
+min-height:150px;
+clear:both;
+}
+
+#view_admin, #view_movie, #view_games{ 
+	position: absolute;
+	background:red; 
+	left: 0; 
+	top: 0; 
+	width: 200px; 
+	bottom:0;
+	background-color:#E51937;
+	padding:2px 2px 2px 2px;
+	border-radius:4px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'Open Sans', sans-serif;
+
+	}
+	
+	
+	
+#view_admin_content{ 
+	margin: 0 210px;
+	padding:4px 4px 4px 4px;
+ 	border-radius:4px;
+	color:#FFF;
+	width:800px;
+}
+
+#add_admin_content, #add_movie_content, #add_game_content {
+	margin: 0 210px;
+	padding:4px 4px 4px 4px;
+	background:#E51937;
+ 	border-radius:4px;
+	color:#FFF;
+	width:800px;
+	}
